@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
@@ -34,7 +35,7 @@ export function CTAStrip() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
 export default CTAStrip;
