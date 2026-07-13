@@ -1,0 +1,32 @@
+/* titanvex/
+├── public/
+│   ├── favicon.ico
+│   └── logo.png
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── icons/
+│   │   └── logo.png
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Hero/
+│   │   ├── Services/
+│   │   ├── About/
+│   │   ├── Projects/
+│   │   ├── Testimonials/
+│   │   ├── Contact/
+│   │   └── Footer/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── Projects.jsx
+│   │   └── Contact.jsx
+│   ├── layouts/
+│   ├── data/
+│   ├── hooks/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+└── vite.config.js */
