@@ -14,7 +14,7 @@ export function CTAStrip() {
                 Ready to start <br /> your project?
               </h2>
               <p className="mt-4 max-w-xl text-slate-400">
-                Submit your equipment or service requirements. Our engineering team responds with a detailed technical evaluation within 24 hours.
+                Submit your equipment or service requirements. Our engineering team responds with a detailed technical evaluation within 24 hours..
               </p>
             </div>
             <div className="flex flex-wrap gap-4 lg:justify-end">
