@@ -132,7 +132,7 @@ function About() {
         <div className="mx-auto max-w-7xl px-6">
               <div>
               <h1 data-aos="fade-in" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Company Strengths</h1>
-              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tighter uppercase">Why leading operators choose <br/> Titanvex.</h1>
+              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tighter uppercase">Why leading operators choose <br className="hidden md:block"/> Titanvex.</h1>
               </div>
           <ol data-aos="fade-up" data-aos-delay="600"  className="mt-12 grid gap-4 md:grid-cols-2">
             {STRENGTHS.map((s, i) => (
