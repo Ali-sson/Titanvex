@@ -109,7 +109,7 @@ function About() {
 
              <div>
               <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">What Drives Us</h1>
-              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tighter uppercase">Vision, mission and the values behind <br/> the work.</h1>
+              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tighter uppercase">Vision, mission and the values behind <br className="hidden md:block"/> the work.</h1>
               </div>
 
           <div data-aos="fade-up" data-aos-delay="200"  className="mt-12 grid gap-6 md:grid-cols-2">

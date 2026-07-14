@@ -109,13 +109,13 @@ function HomePage() {
             <div data-aos="fade-right" data-aos-delay="400"  className="mt-10 flex flex-wrap gap-4">
               <Link
                 to="/products"
-                className="inline-flex items-center gap-2 bg-gold px-8 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-gold-dark"
+                className="inline-flex items-center gap-2 bg-gold px-9 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-gold-dark"
               >
-                View Equipment <ArrowRight className="size-4" />
+                View Equipment 
               </Link>
               <Link
                 to="/services"
-                className="inline-flex items-center border border-white/20 px-8 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-white/10"
+                className="inline-flex items-center border border-white/20 px-12 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-white/10"
               >
                 Our Services
               </Link>
@@ -267,7 +267,7 @@ function HomePage() {
               </span>
             </div>
             <h2 data-aos="fade-up" data-aos-delay="200" className="font-heading text-3xl font-bold uppercase leading-tight md:text-4xl">
-              Engineering & Maintenance <br /> Across Every Sector
+              Engineering & Maintenance <br className="hidden md:block" /> Across Every Sector
             </h2>
             <p data-aos="fade-up" data-aos-delay="400"  className="mt-6 leading-relaxed text-slate-400">
               Our engineering team provides full lifecycle support — from installation and
@@ -309,7 +309,7 @@ function HomePage() {
             <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Why Choose Titanvex</h1>
             <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">The engineering partner Nigerian <br/> industry trusts</h1>
             <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
-              Six reasons operators, contractors and government agencies choose Titanvex for <br/> critical procurement and technical work.
+              Six reasons operators, contractors and government agencies choose Titanvex for <br className="hidden md:block"/> critical procurement and technical work.
             </p>
           </div>
           <div data-aos="fade-up" data-aos-delay="800"  className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -336,7 +336,7 @@ function HomePage() {
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
             <div>
                 <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Industries We Serve</h1>
-                <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Trusted across Nigeria's core <br/> sectors</h1>
+                <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Trusted across Nigeria's core <br className="hidden md:block"/> sectors</h1>
             </div>
             <Link
               to="/industries" data-aos="fade-up" data-aos-delay="600" 
