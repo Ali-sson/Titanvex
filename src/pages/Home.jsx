@@ -264,7 +264,7 @@ function HomePage() {
               <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Industrial Solutions</h1>
               <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Our Products & Solutions</h1>
               <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
-                Explore our range of industrial equipment, engineeringsolutions, procurement services, logigistics coordination <br/> and  maintenaces designed to power every stage of your project.
+                Explore our range of industrial equipment, engineering solutions, procurement services, logistics coordination <br/> and  maintenance services designed to power every stage of your project.
               </p>
               </div>
 
