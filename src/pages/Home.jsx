@@ -1,8 +1,7 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { ArrowRight, CheckCircle2, Cog, Factory, HardHat, ShieldCheck, Truck, Zap } from "lucide-react";
-
-import heroExcavator from "../assets/hero-excavator.jpg";
+import { Link  } from "react-router-dom";
+import { ArrowRight, CheckCircle2, Cog,HardHat, ShieldCheck, Truck, ShoppingCart, Wrench} from "lucide-react";
+// import heroExcavator from "../assets/hero-excavator.jpg";
 import heroPlant from "../assets/hero-plant.jpg";
 import catConstruction from "../assets/cat-construction.jpg";
 import catPower from "../assets/cat-power.jpg";
@@ -11,19 +10,31 @@ import Engineer from "../assets/Engineer.png";
 import Navbar from "../components/Navbar";
 import CTA from "../components/CTA";
 import SiteFooter from "../components/Footer";
-// import { CTAStrip } from "../components/CTAStrip";
-// import { SectionHeader } from "../components/SectionHeader";
+// swiper
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import heroExcavator from "../assets/hero-excavator.jpg";
+import logistics from "../assets/logistics.jpg";
+import asphaltPlant from "../assets/asphaltPlant.jpg";
+
+
 
 const CATEGORIES = [
-  {
+  { 
     title: "Construction Machinery",
-    image: catConstruction,
+    image: catConstruction, 
     description:
-      "Concrete mixers, batching plants, pavers and earthmoving equipment engineered for Nigerian terrain.",
+       "Concrete mixers, batching plants, pavers and earthmoving equipment engineered for Nigerian terrain.",
     to: "/products",
   },
   {
-    title: "Power & Energy Solutions",
+    title: " Power & Energy Solutions",
     image: catPower,
     description:
       "Hybrid solar power systems and industrial generators designed for continuous, high-load operation.",
@@ -39,26 +50,26 @@ const CATEGORIES = [
 ];
 
 const CAPABILITIES = [
-  { icon: HardHat, label: "Heavy Machinery" },
-  { icon: Zap, label: "Power Solutions" },
+  { icon: HardHat, label: "Heavy Equipment" },
   { icon: Cog, label: "Engineering Services" },
-  { icon: Truck, label: "Procurement" },
-  { icon: ShieldCheck, label: "Maintenance" },
-  { icon: Factory, label: "Plant Automation" },
+  { icon: ShoppingCart, label: "Procurement" },
+   { icon: Truck, label: "Logistics" },
+   { icon: ShieldCheck, label: "Maintenance" },
+   { icon: Wrench, label: "Equipment Installation" },
 ];
 
 const WHY_CHOOSE = [
-  "Verified suppliers across Europe, Asia and North America",
-  "In-house engineering team with field experience",
-  "Nationwide service coverage across all 36 Nigerian states",
-  "Genuine spare parts with full manufacturer warranties",
-  "Transparent procurement with technical documentation",
-  "24/7 breakdown response for contracted clients",
+  "Verified Global Equipment Sourcing",
+  "Professional Engineering Expertise",
+  "End-to-End Project Support",
+  "Reliable Logistics & Supply Chain Management",
+  "Genuine Spare Parts & Technical Support",
+  "Long-Term Partnership & Customer Commitment",
 ];
 
 const INDUSTRIES = [
   "Construction",
-  "Civil Engineering",
+  "Energy & Power",
   "Manufacturing",
   "Mining & Quarry",
   "Government",
@@ -67,11 +78,11 @@ const INDUSTRIES = [
   "Real Estate",
 ];
 
-
+ 
 function HomePage() {
   useEffect(() => {
     document.title = "TITANVEX LTD — Industrial Equipment & Engineering Services";
-  }, []);
+  }, []);  
 
   return (
     <>
@@ -91,20 +102,24 @@ function HomePage() {
           <div>
             <div className="mb-6 inline-block border-l-4 border-gold pl-4">
               <span data-aos="fade-up" className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
-                Engineering Excellence · Nigeria
+                TitanVex Ltd Nigeria
               </span>
             </div>
-          <h1 data-aos="fade-up" className="font-heading text-4xl font-bold uppercase leading-tight text-white md:text-5xl">
-                 Delivering Reliable
-                    <br />
-                 Engineering &
-                  <br />
-                 <span className="text-gold">Industrial Solutions</span>
-           </h1>
+      
+
+           <h1
+  data-aos="fade-up"
+  className="font-heading text-4xl font-bold uppercase text-white leading-tight md:text-5xl md:leading-[60px]"
+>
+  Engineering, Procurement,
+  <br />
+  Logistics &
+  <br />
+  <span className="text-gold">Industrial Equipment.</span>
+</h1>
             <p data-aos="fade-up" data-aos-delay="200" className="mt-8 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
-              TITANVEX LTD delivers world-class engineering services, heavy equipment
-              procurement and industrial automation for Nigeria's manufacturing,
-              construction and infrastructure sectors.
+              TITANVEX LTD provides engineering services, industrial equipment supply, procurement, logistics, installation, 
+              commissioning, maintenance, refurbishment and technical support for businesses across Nigeria.
             </p>
             <div data-aos="fade-right" data-aos-delay="400"  className="mt-10 flex flex-wrap gap-4">
               <Link
@@ -121,25 +136,84 @@ function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="hidden lg:block">
-            <div className="relative">
-              <img
-                src={heroExcavator}
-                alt="Yellow hydraulic excavator arm"
-                className="aspect-square w-full rounded-sm object-cover shadow-2xl outline outline-1 -outline-offset-1 outline-white/10"
-                width={1024}
-                height={1024}
-              />
-              <div className="absolute -bottom-6 -left-6 bg-gold p-8 text-white">
-                <span className="block font-heading text-4xl font-bold">1+</span>
-                <span className="text-xs font-bold uppercase tracking-widest">
-                  Years Expertise
-                </span>
-              </div>
-            </div>
-          </div>
+         <div className="hidden lg:block">
+  <Swiper
+    modules={[Autoplay, Pagination, Navigation]}
+    autoplay={{
+      delay: 4000,
+      disableOnInteraction: false,
+    }}
+    loop={true}
+    pagination={{ clickable: true }}
+    navigation
+    className="rounded-sm shadow-2xl"
+  >
+    <SwiperSlide>
+      <img
+        src={heroExcavator}
+        alt="Excavator"
+        className="aspect-square w-full h-90 rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+    <SwiperSlide>
+      <img
+        src={logistics}
+        alt="Wheel Loader"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+    <SwiperSlide>
+      <img
+        src={asphaltPlant}
+        alt="Asphalt Plant"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+  </Swiper>
+</div>
         </div>
       </header>
+
+
+      {/* <div className="hidden lg:block">
+  <Swiper
+    modules={[Autoplay, Pagination, Navigation]}
+    autoplay={{
+      delay: 4000,
+      disableOnInteraction: false,
+    }}
+    loop={true}
+    pagination={{ clickable: true }}
+    navigation
+    className="rounded-sm shadow-2xl"
+  >
+    <SwiperSlide>
+      <img
+        src={heroExcavator}
+        alt="Excavator"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+    <SwiperSlide>
+      <img
+        src={wheelLoader}
+        alt="Wheel Loader"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+    <SwiperSlide>
+      <img
+        src={asphaltPlant}
+        alt="Asphalt Plant"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+  </Swiper>
+</div> */}
 
       {/* Stats */}
       <div className="border-b border-hairline bg-white">
@@ -188,9 +262,9 @@ function HomePage() {
           <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
                <div>
               <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Industrial Solutions</h1>
-              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Featured Product Categories</h1>
+              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Our Products & Solutions</h1>
               <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
-                From massive concrete plants to sophisticated solar power grids, we supply  <br/> the machinery that builds and powers nations.
+                Explore our range of industrial equipment, engineeringsolutions, procurement services, logigistics coordination <br/> and  maintenaces designed to power every stage of your project.
               </p>
               </div>
 
@@ -263,23 +337,26 @@ function HomePage() {
           <div>
             <div className="mb-6 inline-block border-l-4 border-gold pl-4">
               <span data-aos="fade-up"   className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
-                Technical Services
+                Professional Services
               </span>
             </div>
             <h2 data-aos="fade-up" data-aos-delay="200" className="font-heading text-3xl font-bold uppercase leading-tight md:text-4xl">
-              Engineering & Maintenance <br className="hidden md:block" /> Across Every Sector
+              End-End Engineering & Industrial   <br className="hidden md:block" /> Services
             </h2>
             <p data-aos="fade-up" data-aos-delay="400"  className="mt-6 leading-relaxed text-slate-400">
-              Our engineering team provides full lifecycle support — from installation and
-              commissioning through preventive maintenance to major overhauls — ensuring
+              Our team delivers comprehensive engineering, procurement, logistics, installation, commisioning,
+              maintenance, and technical support, ensuring every project is completed efficiently from planning to long-term operation.
+              
               your assets deliver peak performance with minimum downtime.
             </p>
             <ul data-aos="fade-up" data-aos-delay="600"  className="mt-10 space-y-4">
               {[
-                ["Installation & Commissioning", "End-to-end deployment for industrial plants and machinery."],
-                ["Hydraulic & Pneumatic Repairs", "Precision troubleshooting for high-pressure systems."],
-                ["Industrial Automation", "Modernising legacy plants with smart control systems."],
-                ["Preventive Maintenance", "Scheduled diagnostics that avoid costly failures."],
+                ["Engineering Services", "Complete engineering solutions tailored to industrial and infrastructure projects."],
+                ["Equipment Installation & Commissioning", "Professional installation, testing, and commissioning for optimal equipment performance"],
+                ["Procurement & Global Sourcing", "Reliable sourcing of quality industrial equipment and components from trusted global suppliers."],
+                ["Logistics & Supply Chain Coordination", "Efficient logistics and supply chain coordination for seamless project execution."],
+                ["Preventive Maintenance & Refurbishment", "Routine maintenance and equipment refurbishment to maximize reliability and service life."],
+                ["Technical Support and Sourcing", "Expert technical assistance and fast sourcing of genuine spare parts for uninterrupted operations."],
               ].map(([title, desc]) => (
                 <li key={title} className="flex items-start gap-4">
                   <div className="mt-1 grid size-5 place-items-center rounded-sm bg-gold/20 text-gold">
@@ -296,7 +373,7 @@ function HomePage() {
               to="/services" data-aos="fade-right" data-aos-delay="400" 
               className="mt-12 inline-flex items-center gap-2 bg-white px-8 py-4 text-xs font-bold uppercase tracking-widest text-gold transition-colors hover:bg-gold-dark hover:text-white"
             >
-              All Engineering Services <ArrowRight className="size-4" />
+              Explore Our Services <ArrowRight className="size-4" />
             </Link>
           </div>
         </div>
@@ -307,9 +384,9 @@ function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div>
             <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Why Choose Titanvex</h1>
-            <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">The engineering partner Nigerian <br/> industry trusts</h1>
+            <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Building Long-Term Partnership <br/> Through Excellence</h1>
             <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
-              Six reasons operators, contractors and government agencies choose Titanvex for <br className="hidden md:block"/> critical procurement and technical work.
+              Discover why businesses, contractors, manufacturers, and government organizations trust TITANVEX for Engineering, <br className="hidden md:block"/> procurement, logistics, industrial equipment, and long term technical support.
             </p>
           </div>
           <div data-aos="fade-up" data-aos-delay="800"  className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -337,6 +414,10 @@ function HomePage() {
             <div>
                 <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Industries We Serve</h1>
                 <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Trusted across Nigeria's core <br className="hidden md:block"/> sectors</h1>
+              <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
+                We provide engineering, procurement, logistics, and industrial solutions across diverse sectors, <br/> delivering reliable support from project planning to long-term operations.
+              </p>
+           
             </div>
             <Link
               to="/industries" data-aos="fade-up" data-aos-delay="600" 

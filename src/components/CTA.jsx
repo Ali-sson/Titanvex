@@ -14,7 +14,7 @@ export function CTAStrip() {
                 Ready to start <br /> your project?
               </h2>
               <p className="mt-4 max-w-xl text-slate-400">
-                Submit your equipment or service requirements. Our engineering team responds with a detailed technical evaluation within 24 hours..
+                Partner with TITANVEX LTD for a reliable engineering, procurement, logistics, and industrial solutions tailored to your business.
               </p>
             </div>
             <div className="flex flex-wrap gap-4 lg:justify-end">
@@ -28,7 +28,7 @@ export function CTAStrip() {
                 to="/contact"
                 className="inline-flex items-center gap-2 border border-white/20 px-6 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-white/10"
               >
-                Contact Us
+                Contact Our Team
               </Link>
             </div>
           </div>
