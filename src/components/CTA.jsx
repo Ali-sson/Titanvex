@@ -11,7 +11,7 @@ export function CTAStrip() {
           <div className="relative z-10 grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
             <div>
               <h2 className="font-heading text-3xl font-bold uppercase leading-tight text-white md:text-4xl">
-                Ready to start <br /> your project?
+                Need professional <br /> engineering support?
               </h2>
               <p className="mt-4 max-w-xl text-slate-400">
                 Partner with TITANVEX LTD for a reliable engineering, procurement, logistics, and industrial solutions tailored to your business.

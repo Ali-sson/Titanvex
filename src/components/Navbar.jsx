@@ -11,6 +11,10 @@ const nav = [
     label: "Services",
     children: [
       {
+        // to: "/services/logistics",
+        label: "Logistics & Supply Chain",
+      },
+      {
         // to: "/services/engineering",
         label: "Engineering Services",
       },

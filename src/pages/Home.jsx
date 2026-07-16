@@ -23,14 +23,16 @@ import heroExcavator from "../assets/hero-excavator.jpg";
 import logistics from "../assets/logistics.jpg";
 import asphaltPlant from "../assets/asphaltPlant.jpg";
 
+import WhatsAppFloat from "../components/Whatsapp";
+
 
 
 const CATEGORIES = [
   { 
-    title: "Construction Machinery",
+    title: "Construction Equipment",
     image: catConstruction, 
     description:
-       "Concrete mixers, batching plants, pavers and earthmoving equipment engineered for Nigerian terrain.",
+       "Concrete mixers, asphalt plants, pavers and earthmoving equipment engineered for Nigerian terrain.",
     to: "/products",
   },
   {
@@ -59,12 +61,11 @@ const CAPABILITIES = [
 ];
 
 const WHY_CHOOSE = [
-  "Verified Global Equipment Sourcing",
   "Professional Engineering Expertise",
+  "Reliable Equipment Sourcing",
   "End-to-End Project Support",
-  "Reliable Logistics & Supply Chain Management",
-  "Genuine Spare Parts & Technical Support",
-  "Long-Term Partnership & Customer Commitment",
+  "Nationwide Service Coverage",
+  "Commitment to Quality & Safety",
 ];
 
 const INDUSTRIES = [
@@ -102,7 +103,7 @@ function HomePage() {
           <div>
             <div className="mb-6 inline-block border-l-4 border-gold pl-4">
               <span data-aos="fade-up" className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
-                TitanVex Ltd Nigeria
+                TitanVex Ltd 
               </span>
             </div>
       
@@ -111,15 +112,17 @@ function HomePage() {
   data-aos="fade-up"
   className="font-heading text-4xl font-bold uppercase text-white leading-tight md:text-5xl md:leading-[60px]"
 >
-  Engineering, Procurement,
-  <br />
-  Logistics &
-  <br />
-  <span className="text-gold">Industrial Equipment.</span>
+  <span className="pr-2">Engineering</span> 
+  <span className= "text-yellow-500">&bull;</span> <br />
+   <span>Procurement</span>
+    <span className= "text-yellow-500">&bull;</span> <br />
+    <span className="pr-2">Logistics</span>
+    <span className= "text-yellow-500">&bull;</span> <br />
+  <span className="text-gold">Supply Chain Solutions</span>
 </h1>
             <p data-aos="fade-up" data-aos-delay="200" className="mt-8 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
-              TITANVEX LTD provides engineering services, industrial equipment supply, procurement, logistics, installation, 
-              commissioning, maintenance, refurbishment and technical support for businesses across Nigeria.
+              Delivering reliable industrial equipment, engineering expertise, procurement support, and logistics solution for 
+              businesses across Nigeria.
             </p>
             <div data-aos="fade-right" data-aos-delay="400"  className="mt-10 flex flex-wrap gap-4">
               <Link
@@ -146,7 +149,10 @@ function HomePage() {
     loop={true}
     pagination={{ clickable: true }}
     navigation
-    className="rounded-sm shadow-2xl"
+      style={{
+    "--swiper-navigation-color": "#FBBF24", // Gold
+    // className="rounded-sm shadow-2xl bg-gold"
+      }}
   >
     <SwiperSlide>
       <img
@@ -440,6 +446,8 @@ function HomePage() {
       </section>
 
       <CTA/>
+
+      <WhatsAppFloat/>
 
       <SiteFooter/>
     </>

@@ -16,14 +16,14 @@ export function SiteFooter() {
             </span>
           </div>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-400">
-            Engineering excellence, industrial equipment procurement and nationwide technical services across Nigeria.
+            Engineering, procurement, logistics, and supply chain solutions..
           </p>
         </div>
 
         <div>
-          <h5 className="text-[16px] font-bold uppercase tracking-widest text-white">Solutions</h5>
+          <h5 className="text-[16px] font-bold uppercase tracking-widest text-white">Services</h5>
           <ul className="mt-5 space-y-3 text-sm">
-            <li><Link to="/products" className="hover:text-gold">Products</Link></li>
+            <li><Link to="/products" className="hover:text-gold">Logistics & Supply Chain</Link></li>
             <li><Link to="/services" className="hover:text-gold">Engineering Services</Link></li>
             <li><Link to="/procurement" className="hover:text-gold">Equipment Procurement</Link></li>
             <li><Link to="/spare-parts" className="hover:text-gold">Spare Parts</Link></li>
@@ -31,7 +31,7 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <h5 className="text-[16px] font-bold uppercase tracking-widest text-white">Company</h5>
+          <h5 className="text-[16px] font-bold uppercase tracking-widest text-white">Quick Links</h5>
           <ul className="mt-5 space-y-3 text-sm">
             <li><Link to="/about" className="hover:text-gold">About Us</Link></li>
             <li><Link to="/industries" className="hover:text-gold">Industries</Link></li>
