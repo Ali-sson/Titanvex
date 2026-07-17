@@ -6,10 +6,16 @@ import heroPlant from "../assets/hero-plant.jpg";
 import catConstruction from "../assets/cat-construction.jpg";
 import catPower from "../assets/cat-power.jpg";
 import catLaundry from "../assets/cat-laundry.jpg";
-import Engineer from "../assets/Engineer.png";
+import EngineerCEo from "../assets/EngineerCEo.jpeg";
+import Wheel from "../assets/wheel-loaders.jpg";
+import Concrete from "../assets/concrete-batch.jpg";
+import Excavator from "../assets/excavator1.jpg";
+import ConcreteMix from "../assets/concrete-mixer.jpg";
 import Navbar from "../components/Navbar";
 import CTA from "../components/CTA";
 import SiteFooter from "../components/Footer";
+import Logistics from "../components/Logistics"
+
 // swiper
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,6 +30,7 @@ import logistics from "../assets/logistics.jpg";
 import asphaltPlant from "../assets/asphaltPlant.jpg";
 
 import WhatsAppFloat from "../components/Whatsapp";
+
 
 
 
@@ -110,15 +117,10 @@ function HomePage() {
 
            <h1
   data-aos="fade-up"
-  className="font-heading text-4xl font-bold uppercase text-white leading-tight md:text-5xl md:leading-[60px]"
+  className="font-poppins text-4xl font-bold uppercase text-white leading-tight md:text-6xl md:leading-[60px]"
 >
-  <span className="pr-2">Engineering</span> 
-  <span className= "text-yellow-500">&bull;</span> <br />
-   <span>Procurement</span>
-    <span className= "text-yellow-500">&bull;</span> <br />
-    <span className="pr-2">Logistics</span>
-    <span className= "text-yellow-500">&bull;</span> <br />
-  <span className="text-gold">Supply Chain Solutions</span>
+  Engineering <br /> Procurement  <br /> Logistics & <br />
+    <span className="text-gold">Supply Chain Solutions</span>
 </h1>
             <p data-aos="fade-up" data-aos-delay="200" className="mt-8 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
               Delivering reliable industrial equipment, engineering expertise, procurement support, and logistics solution for 
@@ -177,6 +179,43 @@ function HomePage() {
         className="aspect-square w-full rounded-sm object-cover"
       />
     </SwiperSlide>
+
+      <SwiperSlide>
+      <img
+        src={Wheel}
+        alt="wheel-loaders"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+      <SwiperSlide>
+      <img
+        src={Excavator}
+        alt="Excavator"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+
+      <SwiperSlide>
+      <img
+        src={Concrete}
+        alt="concrete-batch-plant"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+      <SwiperSlide>
+      <img
+        src={ConcreteMix}
+        alt="concrete-mixer"
+        className="aspect-square w-full rounded-sm object-cover"
+      />
+    </SwiperSlide>
+
+
+
+
   </Swiper>
 </div>
         </div>
@@ -316,12 +355,16 @@ function HomePage() {
         </div>
       </section>
 
+      {/* logistics section */}
+
+      <Logistics/>
+
       {/* Engineering Services section */}
       <section className="bg-primary py-20 text-white lg:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2 lg:gap-20">
           <div className="relative">
             <img
-              src={Engineer}
+              src={EngineerCEo}
               alt="Technician repairing an industrial hydraulic system"
               className="aspect-[4/5] w-full rounded-sm object-cover"
               loading="lazy"

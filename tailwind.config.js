@@ -20,6 +20,9 @@ export default {
 
         border: "#334155",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
     },
     
   },
