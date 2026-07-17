@@ -31,7 +31,7 @@ export default function LogisticsSection() {
       
 
         {/* Right Images */}
-        <div className="flex gap-6">
+        <div className="gap-6 hidden lg:flex">
           {cards.map((card, index) => (
             <div
               key={index}
