@@ -20,19 +20,19 @@ const services = [
     icon: Package,
     title: "Equipment Supply",
     description:
-      "Supplying high-quality industrial machinery and equipment from trusted manufacturers.",
+      "Supplying high-quality industrial equipment from trusted manufacturers worldwide.",
   },
   {
     icon: ShoppingCart,
-    title: "Procurement",
+    title: "Procurement & Global Sourcing",
     description:
-      "Strategic sourcing of equipment, components, and industrial materials worldwide.",
+      "Strategic procurement and global sourcing of industrial equipment, spare parts, and engineering materials from trusted manufacturers worldwide.",
   },
   {
     icon: Truck,
     title: "Logistics Coordination",
     description:
-      "Reliable transportation and supply chain coordination to keep projects on schedule.",
+      "End-to-End logistics, transportation and supply chain coordination that ensure projects remain on schedule and deliveries arrive safely.",
   },
   {
     icon: HardHat,

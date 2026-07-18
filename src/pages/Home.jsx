@@ -11,10 +11,10 @@ import Wheel from "../assets/wheel-loaders.jpg";
 import Concrete from "../assets/concrete-batch.jpg";
 import Excavator from "../assets/excavator1.jpg";
 import ConcreteMix from "../assets/concrete-mixer.jpg";
+import LogImg from "../assets/logistics.jpg"
 import Navbar from "../components/Navbar";
 import CTA from "../components/CTA";
 import SiteFooter from "../components/Footer";
-import Logistics from "../components/Logistics"
 
 // swiper
 
@@ -56,6 +56,15 @@ const CATEGORIES = [
       "Commercial laundry, electrical distribution and specialised industrial equipment for plants and facilities.",
     to: "/products",
   },
+  {
+   title: "Logistics & Supply Chain Solutions",
+    image:  LogImg,
+    description:
+      "Commercial laundry, electrical distribution and specialised industrial equipment for plants and facilities.",
+    to: "/products",
+  },
+  
+
 ];
 
 const CAPABILITIES = [
@@ -321,7 +330,7 @@ function HomePage() {
             </Link>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-4">
             {CATEGORIES.map((c) => (
               <Link
                 key={c.title}
@@ -355,9 +364,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* logistics section */}
-
-      <Logistics/>
 
       {/* Engineering Services section */}
       <section className="bg-primary py-20 text-white lg:py-24">

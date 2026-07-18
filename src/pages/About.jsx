@@ -79,15 +79,16 @@ function About() {
           <div>
               <div>
               <h1 data-aos="fade-up" className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Company Overview</h1>
-              <h1 data-aos="fade-up" data-aos-delay="200"  className="text-3xl md:text-4xlfont-poppins font-bold mb-4 tracking-tighter uppercase">Your Trusted Partner for Engineering, Procurement & Industrial Solutions</h1>
+              <h1 data-aos="fade-up" data-aos-delay="200"  className="text-3xl md:text-4xlfont-poppins font-bold mb-4 tracking-tighter uppercase">Trusted Engineering, Procurement & Industrial Solutions</h1>
               </div>
             <h1 data-aos="fade-up" data-aos-delay="400" className="text-gray-700" >
                 TITANVEX LTD is a Nigerian engineering, industrial equipment, procurement, logistics, and supply chain solutions company committed to supporting businesses with reliable engineering services and professional equipment solutions.
                  We specialize in the supply, procurement, installation, commissioning, maintenance, refurbishment, and technical support of industrial and construction equipment. We also assist organizations in sourcing high-quality equipment from trusted local and international manufacturers while providing end-to-end procurement and logistics coordination. </h1>
             <h1 className="mt-2 text-gray-700" data-aos="fade-up" data-aos-delay="600" >
-                 At TITANVEX LTD, we believe that engineering excellence extends beyond equipment supply. Our approach combines technical expertise, strategic procurement, efficient logistics coordination, and dependable after-sales support to help our clients improve operational efficiency, maximize equipment performance, and achieve long-term productivity. </h1>
+                 At TITANVEX LTD, we believe that engineering excellence extends beyond equipment supply. Our approach combines technical expertise, strategic procurement, efficient logistics coordination, and dependable after-sales support to help our clients improve operational efficiency, maximize equipment performance, and achieve long-term productivity. 
+                 Through strategic partnerships with leading national and international logistics providers, TITANVEX delivers reliable shipping, freight forwarding, and supply chain coordination solutions for businesses across Nigeria and beyond. </h1>
                <h1 className="mt-2 text-gray-700" data-aos="fade-up" data-aos-delay="800" >
-                Although TITANVEX LTD is a newly established company, we are building our business on professionalism, integrity, technical competence, and a commitment to creating lasting partnerships with clients across Nigeria and beyond.
+                TITANVEX LTD is built on professionalism, integrity, technical competence, and a commitment to creating lasting partnerships with clients across Nigeria and beyond.
                 Our vision is not simply to supply equipment but to become a trusted engineering and industrial solutions partner that delivers value throughout every stage of a project's lifecycle—from equipment selection and procurement to installation, maintenance, and ongoing technical support.
             </h1>
           </div>
