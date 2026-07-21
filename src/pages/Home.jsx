@@ -441,7 +441,7 @@ function HomePage() {
             <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Why Choose Titanvex</h1>
             <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Building Long-Term Partnership <br/> Through Excellence</h1>
             <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
-              Discover why businesses, contractors, manufacturers, and government organizations trust TITANVEX for Engineering, <br className="hidden md:block"/> procurement, logistics, industrial equipment, and long term technical support.
+              Discover why businesses, contractors, manufacturers, and government organizations trust TITANVEX for Engineering, <br className="hidden md:block"/> procurement, logistics, industrial equipment, and long term technical support
             </p>
           </div>
           <div data-aos="fade-up" data-aos-delay="800"  className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
