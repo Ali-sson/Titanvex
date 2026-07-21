@@ -292,7 +292,7 @@ function HomePage() {
       <section className="border-b border-hairline bg-gray-100 py-16">
         <div className="mx-auto max-w-7xl px-6">
           <p data-aos="fade-up" className="text-center text-xs font-bold uppercase tracking-widest text-brand-gray">
-            Core capabilities
+            Core capabilities.
           </p>
           <div data-aos="fade-up" data-aos-delay="200"  className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
             {CAPABILITIES.map(({ icon: Icon, label }) => (
