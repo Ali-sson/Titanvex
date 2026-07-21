@@ -4,23 +4,28 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import Logo from "../assets/Logo.png";
 
 const nav = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About Us" },
+  {
+    //  to: "/", 
+     label: "Home" },
+  {
+    //  to: "/about",
+      label: "About Us" },
 
   {
     label: "Services",
     children: [
+     
       {
-        // to: "/services/logistics",
-        label: "Logistics & Supply Chain",
-      },
-      {
-        // to: "/services/engineering",
+       to: "/services/engineering",
         label: "Engineering Services",
       },
       {
         // to: "/services/procurement",
         label: "Equipment Procurement",
+      },
+       {
+        // to: "/services/logistics",
+        label: "Logistics & Supply Chain",
       },
       {
         // to: "/services/spare-parts",
@@ -68,7 +73,7 @@ function Navbar() {
                   <div className="w-64 overflow-hidden rounded-xl border border-border bg-white shadow-xl">
 
                     {item.children.map((child) => (
-                      <Link
+                      <Link to
                         key={child.to}
                         to={child.to}
                         className="block px-5 py-3 text-sm text-gray-700 transition hover:bg-secondary hover:text-gold"

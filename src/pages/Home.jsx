@@ -60,7 +60,7 @@ const CATEGORIES = [
    title: "Logistics & Supply Chain Solutions",
     image:  LogImg,
     description:
-      "Commercial laundry, electrical distribution and specialised industrial equipment for plants and facilities.",
+      "Reliable logistics, freight forwarding, transportation, and supply chain coordination for industrial projects across Nigeria and beyond.",
     to: "/products",
   },
   
@@ -126,7 +126,7 @@ function HomePage() {
 
            <h1
   data-aos="fade-up"
-  className="font-poppins text-4xl font-bold uppercase text-white leading-tight md:text-6xl md:leading-[60px]"
+  className="font-poppins text-4xl font-bold uppercase text-white leading-tight md:text-6xl md:leading-[70px]"
 >
   Engineering <br /> Procurement  <br /> Logistics & <br />
     <span className="text-gold">Supply Chain Solutions</span>
