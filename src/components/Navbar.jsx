@@ -8,7 +8,7 @@ const nav = [
      to: "/", 
      label: "Home" },
   {
-    //  to: "/about",
+     to: "/about",
       label: "About Us" },
 
   {
