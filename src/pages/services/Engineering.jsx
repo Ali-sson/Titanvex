@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 import heroPlant from "../../assets/hero-plant.jpg";
-import Engineers from "../../assets/engineers.jpeg";
+import Engineers from "../../assets/Engineers.jpeg";
 import Process from "../../components/Process";
 import CTAStrip from "../../components/CTA";
 
