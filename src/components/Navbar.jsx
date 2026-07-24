@@ -20,8 +20,8 @@ const nav = [
         label: "Engineering Services",
       },
       {
-        // to: "/services/procurement",
-        label: "Equipment Procurement",
+        to: "/services/procurement",
+        label: "Procurement & Global Sourcing",
       },
        {
         // to: "/services/logistics",

@@ -57,11 +57,11 @@ export default function Engineering() {
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2 lg:items-center">
           <div>
             <div className="mb-2 inline-block border-l-4 border-gold pl-4">
-              <span data-aos="fade-up" data-aos-delay="200"  className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
+              <span data-aos="fade-in" className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
                 Engineering Services
               </span>
                </div>
-                <p data-aos="fade-up" data-aos-delay="600"  className="mt-4 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
+                <p data-aos="fade-in" className="mt-4 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
             From installation and commissioning to maintenance and ongoing technical support, Titanvex delivers engineering solutions that keep industries moving efficiently.
             </p>
            
@@ -74,25 +74,25 @@ export default function Engineering() {
 
         {/* Heading */}
 
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <p data-aos="fade-up"className="uppercase tracking-[0.3em] text-sm border-l-4 inline-block pl-4 border-gold text-gold font-semibold">
+        <div className="mx-auto max-w-7xl text-left">
+          <span  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">
             Engineering Services
-          </p>
+          </span>
 
-          <h2 data-aos="fade-up" className="mt-4 text-3xl md:text-4xl font-bold text-slate-900">
-            Engineering Expertise Built Around Your Projects
+          <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2">
+            Engineering Expertise Built <br/> Around Your Projects
           </h2>
 
-          <p data-aos="fade-up" data-aos-delay="600" className="mt-6 text-slate-600 leading-8">
+          <p data-aos="fade-up" data-aos-delay="600" className="text-base text-gray-700">
             From installation and commissioning to maintenance and ongoing
-            technical support, Titanvex delivers engineering solutions that
+            technical support, <br/> Titanvex delivers engineering solutions that
             keep industries moving efficiently.
           </p>
         </div>
 
         {/* Content */}
 
-        <div data-aos="fade-up" data-aos-delay="200" className="grid lg:grid-cols-2 gap-14 items-center">
+        <div data-aos="fade-up" data-aos-delay="200" className="grid lg:grid-cols-2 gap-14 items-center mt-12">
 
           {/* Image */}
 

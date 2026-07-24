@@ -42,18 +42,18 @@ export default function EngineeringProcess() {
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
-        <div className="text-center max-w-3xl mx-auto mb-20">
+        <div className="text-left max-w-7xl mx-auto mb-20">
           <span data-aos="fade-up" className="text-gold border-gold border-l-4 inline pl-4 font-semibold uppercase tracking-widest">
             How We Work
           </span>
 
-          <h2 data-aos="fade-up" data-aos-delay="200" className="text-3xl md:text-4xl font-bold text-white mt-3">
+          <h2 data-aos="fade-up" data-aos-delay="200" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2 text-white">
             Our Engineering Process
           </h2>
 
-          <p data-aos="fade-up" data-aos-delay="600" className="text-gray-400 mt-6 leading-8">
+          <p data-aos="fade-up" data-aos-delay="600" className="text-gray-400 leading-8">
             Every project follows a structured workflow to ensure quality,
-            safety, efficiency, and timely delivery from concept to completion.
+            safety, efficiency, <br/> and timely delivery from concept to completion.
           </p>
         </div>
 

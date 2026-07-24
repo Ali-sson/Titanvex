@@ -1,75 +1,64 @@
-// import { PageHero } from "../components/site/PageHero";
-// import { CTAStrip } from "../components/site/CTAStrip";
+import heroPlant from "../../assets/hero-plant.jpg";
+import Navbar from "../../components/Navbar";
+import ProcurementOverview from "../../components/procurement/ProcurementOverview";
+import ProcurementProcess from "../../components/procurement/ProcurementProcess";
+import ProcurementServices from "../../components/procurement/ProcurementServices";
+import CTAStrip  from "../../components/CTA";
+import SiteFooter from "../../components/Footer";
 
-const STEPS = [
-  [
-    "Equipment Selection",
-    "Requirements gathering with your operations team, matched to the right equipment class and specification.",
-  ],
-  [
-    "Supplier Verification",
-    "Direct engagement with vetted OEMs and authorised distributors — no grey-market suppliers.",
-  ],
-  [
-    "Technical Evaluation",
-    "Independent review of specifications, warranties, service networks and total cost of ownership.",
-  ],
-  [
-    "Procurement Support",
-    "Contract negotiation, letters of credit, and full documentation for import and clearance.",
-  ],
-  [
-    "Shipping Coordination",
-    "Freight planning, insurance, customs clearance and inland transport to site.",
-  ],
-  [
-    "Delivery Assistance",
-    "On-site offloading, positioning, installation and commissioning support.",
-  ],
-  [
-    "After-Sales Support",
-    "Warranty administration, spare-parts supply and ongoing maintenance contracts.",
-  ],
-];
-
-export default function Procurement() {
+function Procurement() {
   return (
     <>
-   
+    <Navbar />
+    
+          {/* Hero */}
+          <header className="relative overflow-hidden bg-primary py-20 lg:py-28">
+            <img
+              src={heroPlant}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover opacity-20"
+              width={1920}
+              height={1080}
+            />
+            <div className="relative mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2 lg:items-center">
+              <div>
+                <div className="mb-2 inline-block border-l-4 border-gold pl-4">
+                  <span data-aos="fade-up" data-aos-delay="200"  className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
+                    Procurement & Global Sourcing
+                  </span>
+                   </div>
+                    <p data-aos="fade-in" className="mt-4 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
+                 TITANVEX LTD delivers reliable procurement solutions for
+              industrial, construction, manufacturing, energy and
+              infrastructure projects through trusted supplier networks,
+              quality assurance and efficient logistics coordination.
+              </p>
+               
+              </div>
+            </div>
+          </header>
 
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="relative mx-auto max-w-4xl">
-            {/* Vertical Timeline */}
-            <div className="absolute bottom-0 left-6 top-0 hidden w-px bg-gray-200 md:block" />
+          <ProcurementOverview />
 
-            <ol className="space-y-10">
-              {STEPS.map(([title, desc], i) => (
-                <li
-                  key={title}
-                  className="relative grid gap-6 md:grid-cols-[auto_1fr] md:items-start"
-                >
-                  <div className="grid h-12 w-12 shrink-0 place-items-center rounded-sm border border-gray-200 bg-white text-lg font-bold text-orange-500">
-                    {String(i + 1).padStart(2, "0")}
-                  </div>
+          <ProcurementProcess/>
 
-                  <div>
-                    <h3 className="text-xl font-bold uppercase text-[#081C3A]">
-                      {title}
-                    </h3>
+          <ProcurementServices />
 
-                    <p className="mt-2 text-gray-600 leading-relaxed">
-                      {desc}
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </ol>
-          </div>
-        </div>
-      </section>
+            <CTAStrip
+            title={
+              <>
+                Need Reliable Equipment Procurement Solutions? <br /> 
+              </>
+            }
+            description="From sourcing genuine industrial equipment to managing international procurement and delivery, TITANVEX provides trusted end-to-end solutions tailored to your project needs."
+          />
 
-      {/* <CTAStrip /> */}
+          <SiteFooter />
     </>
-  );
+  )
 }
+        
+
+
+export default Procurement

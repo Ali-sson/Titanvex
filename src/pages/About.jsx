@@ -65,7 +65,7 @@ function About() {
                 About Titanvex Ltd
               </span>
                </div>
-                <p data-aos="fade-up" data-aos-delay="600"  className="mt-4 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
+                <p data-aos="fade-in" className="mt-4 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
               Delivering Engineering Excellence, Industrial Equipment, Procurement, and Logistics Solutions Across Africa
             </p>
            
