@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-// import Home from './pages/Home'
+import Home from './pages/Home'
 // import About from './pages/About'
 import Engineering from "./pages/services/Engineering";
 import Procurement from './pages/services/Procurement';
@@ -24,8 +24,8 @@ function App() {
 
 
       <Routes>
-        {/* <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} /> */}
+          <Route path="/" element={<Home />} /> 
+          {/* <Route path="/about" element={<About />} />  */}
          <Route path="/services/engineering" element={<Engineering />} />
           <Route path="/services/procurement" element={<Procurement />} />
 

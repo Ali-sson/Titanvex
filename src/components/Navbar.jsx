@@ -5,7 +5,7 @@ import Logo from "../assets/Logo.png";
 
 const nav = [
   {
-    //  to: "/", 
+     to: "/", 
      label: "Home" },
   {
     //  to: "/about",
