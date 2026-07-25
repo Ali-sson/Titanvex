@@ -89,7 +89,7 @@ export default function ProcurementProcess() {
                 >
                   {/* Circle */}
 
-                  <div data-aos="fade-up"  className="relative z-10 mx-auto flex h-20 w-20 items-center justify-center rounded-full border-4 border-slate-50 bg-gold shadow-lg">
+                  <div data-aos="fade-in"  className="relative z-10 mx-auto flex h-20 w-20 items-center justify-center rounded-full border-4 border-slate-50 bg-gold shadow-lg">
                     <Icon className="text-slate-900" size={32} />
                   </div>
 

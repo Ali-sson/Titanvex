@@ -117,6 +117,7 @@ export default function Engineering() {
               return (
                 <div
                   key={index}
+                  data-aos="fade-up"
                   className="group border border-slate-200 rounded-2xl p-7 hover:border-gold hover:shadow-xl transition-all duration-300 cursor-pointer"
                 >
                   <div className="flex justify-between items-start">
@@ -132,7 +133,7 @@ export default function Engineering() {
 
                       </div>
 
-                      <div data-aos="fade-up" data-aos-delay="200">
+                      <div>
 
                         <h3 className="text-xl font-semibold text-slate-900">
                           {service.title}
