@@ -81,25 +81,25 @@ export default function ProcurementServices() {
 
         {/* Heading */}
 
-        <div className="mx-auto max-w-7xl text-left">
-          <span className="text-sm font-semibold uppercase border-l-4 border-gold pl-2 text-gold">
+        <div data-aos="fade-up" className="mx-auto max-w-7xl text-left">
+          <span data-aos="fade-up" data-aos-delay="200" className="text-sm font-semibold uppercase border-l-4 border-gold pl-2 text-gold">
             What We Supply
           </span>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
+          <h2 data-aos="fade-up" data-aos-delay="400" className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
             Our Procurement <br/> Services
           </h2>
 
-          <p className="text-base text-gray-700">
+          <p data-aos="fade-up" data-aos-delay="600" className="text-base text-gray-700">
             We deliver comprehensive procurement solutions tailored to
-            industrial, construction, <br/> energy, manufacturing and
+            industrial, construction, <br className="hidden md:block "/> energy, manufacturing and
             infrastructure projects.
           </p>
         </div>
 
         {/* Cards */}
 
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div data-aos="fade-up" data-aos-delay="200" className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
           {services.map((service, index) => {
             const Icon = service.icon;

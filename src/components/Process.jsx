@@ -58,7 +58,7 @@ export default function EngineeringProcess() {
         </div>
 
         {/* Timeline */}
-        <div className="relative">
+        <div data-aos="fade-up" data-aos-delay="200" className="relative">
 
           {/* Desktop Connecting Line */}
           <div className="hidden lg:block absolute top-12 left-0 w-full h-1 bg-slate-800">
@@ -92,7 +92,7 @@ export default function EngineeringProcess() {
                   </div>
 
                   {/* Card */}
-                  <div className="mt-5 bg-slate-900 border border-slate-800 rounded-2xl p-8 transition-all duration-300 hover:border-gold hover:-translate-y-2">
+                  <div data-aos="fade-up" data-aos-delay="200" className="mt-5 bg-slate-900 border border-slate-800 rounded-2xl p-8 transition-all duration-300 hover:border-gold hover:-translate-y-2">
 
                     <h3 className="text-white text-xl font-semibold mb-4">
                       {step.title}

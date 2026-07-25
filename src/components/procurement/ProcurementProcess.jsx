@@ -53,18 +53,18 @@ export default function ProcurementProcess() {
 
         {/* Heading */}
 
-        <div className="mx-auto max-w-7xl text-left">
-          <span className="text-sm font-semibold uppercase border-l-4 border-gold pl-2 text-gold">
+        <div data-aos="fade-up" className="mx-auto max-w-7xl text-left">
+          <span data-aos="fade-up" data-aos-delay="200" className="text-sm font-semibold uppercase border-l-4 border-gold pl-2 text-gold">
             Our Process
           </span>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
+          <h2 data-aos="fade-up" data-aos-delay="400" className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
             A Reliable Procurement <br/> Workflow
           </h2>
 
-          <p className="text-base text-gray-700">
+          <p data-aos="fade-up" data-aos-delay="600" className="text-base text-gray-700">
             Every procurement project follows a structured process that
-            prioritizes quality, <br/> transparency and efficiency from sourcing
+            prioritizes quality, <br className="hidden md:block"/> transparency and efficiency from sourcing
             to final delivery.
           </p>
         </div>
@@ -89,7 +89,7 @@ export default function ProcurementProcess() {
                 >
                   {/* Circle */}
 
-                  <div className="relative z-10 mx-auto flex h-20 w-20 items-center justify-center rounded-full border-4 border-slate-50 bg-gold shadow-lg">
+                  <div data-aos="fade-up"  className="relative z-10 mx-auto flex h-20 w-20 items-center justify-center rounded-full border-4 border-slate-50 bg-gold shadow-lg">
                     <Icon className="text-slate-900" size={32} />
                   </div>
 
@@ -99,11 +99,11 @@ export default function ProcurementProcess() {
                     {index + 1}
                   </span>
 
-                  <h3 className="mt-4 text-xl font-semibold text-slate-900">
+                  <h3 data-aos="fade-in"  className="mt-4 text-xl font-semibold text-slate-900">
                     {step.title}
                   </h3>
 
-                  <p className="mt-3 text-sm leading-7 text-slate-600">
+                  <p data-aos="fade-in"  className="mt-3 text-sm leading-7 text-slate-600">
                     {step.description}
                   </p>
                 </div>

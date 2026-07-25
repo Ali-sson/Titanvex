@@ -41,16 +41,16 @@ export default function ProcurementOverview() {
 
         {/* Heading */}
 
-        <div className="mx-auto max-w-7xl text-left">
+        <div data-aos="fade-up" className="mx-auto max-w-7xl text-left">
           <span className="text-sm font-semibold uppercase border-l-4 border-gold pl-2 text-gold">
             Procurement Excellence
           </span>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
+          <h2 data-aos="fade-up" data-aos-delay="200" className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
             Reliable Equipment <br/> Procurement
           </h2>
 
-          <p className="text-base text-gray-700">
+          <p data-aos="fade-up" data-aos-delay="400" className="text-base text-gray-700">
 
 TITANVEX LTD provides professional equipment procurement services for industrial, construction, energy, manufacturing, and infrastructure projects. We assist clients in sourcing genuine, high-quality equipment, machinery, spare parts, and engineering materials from trusted local and international manufacturers.
 
@@ -63,7 +63,7 @@ TITANVEX LTD provides professional equipment procurement services for industrial
 
         {/* Feature Cards */}
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div data-aos="fade-up" data-aos-delay="200" className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 
           {features.map((item, index) => {
             const Icon = item.icon;
@@ -91,7 +91,7 @@ TITANVEX LTD provides professional equipment procurement services for industrial
 
         {/* Image */}
 
-        <div className="mt-20 overflow-hidden rounded-3xl shadow-xl">
+        <div data-aos="fade-in" className="mt-20 overflow-hidden rounded-3xl shadow-xl">
 
           <img
             src={procurementImage}

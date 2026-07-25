@@ -96,7 +96,7 @@ export default function Engineering() {
 
           {/* Image */}
 
-          <div data-aos="fade-right" data-aos-delay="200">
+          <div data-aos="fade-up" data-aos-delay="200">
 
             <img
               src={Engineers}
@@ -132,7 +132,7 @@ export default function Engineering() {
 
                       </div>
 
-                      <div>
+                      <div data-aos="fade-up" data-aos-delay="200">
 
                         <h3 className="text-xl font-semibold text-slate-900">
                           {service.title}
