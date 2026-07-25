@@ -80,7 +80,7 @@ export default function Engineering() {
           </span>
 
           <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2">
-            Engineering Expertise Built <br/> Around Your Projects
+            Engineering Expertise Built <br className="hidden md:block"/> Around Your Projects
           </h2>
 
           <p data-aos="fade-up" data-aos-delay="600" className="text-base text-gray-700">
@@ -96,15 +96,14 @@ export default function Engineering() {
 
           {/* Image */}
 
-          <div data-aos="fade-right" data-aos-delay="200" className="relative overflow-hidden rounded-3xl h-[720px]">
+          <div data-aos="fade-right" data-aos-delay="200">
 
             <img
               src={Engineers}
               alt=""
-              className="absolute inset-0 w-full h-full object-cover hover:scale-105 duration-700"
+             className="relative overflow-hidden h-[300px] md:h-[720px] w-full object-cover shadow-xl"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/20 to-transparent" />
 
           </div>
 
@@ -163,7 +162,7 @@ export default function Engineering() {
     <CTAStrip
   title={
     <>
-      Need Expert Engineering Solutions for Your <br />
+      Need Expert Engineering Solutions for Your <br className="hidden md:block" />
       Next Project ? 
     </>
   }

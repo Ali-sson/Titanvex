@@ -51,12 +51,15 @@ export default function ProcurementOverview() {
           </h2>
 
           <p className="text-base text-gray-700">
-            TITANVEX LTD provides end-to-end procurement services for
-            industrial, construction, manufacturing, <br/> energy and
-            infrastructure projects. We source genuine equipment,
-            machinery, spare parts and engineering <br/> materials from trusted
-            suppliers while ensuring quality, compliance and value at
-            every stage.
+
+TITANVEX LTD provides professional equipment procurement services for industrial, construction, energy, manufacturing, and infrastructure projects. We assist clients in sourcing genuine, high-quality equipment, machinery, spare parts, and engineering materials from trusted local and international manufacturers.
+
+<p>Our procurement process focuses on supplier verification, technical evaluation, quality assurance, competitive pricing, and timely delivery. Whether supplying a single machine or coordinating procurement for an entire project, we ensure every item meets the required technical specifications and industry standards.</p>
+
+<p>We manage the entire procurement cycle; from identifying the right equipment and obtaining quotations to supplier coordination, logistics planning, customs support (where applicable), and final delivery—giving our clients a reliable, cost-effective, and hassle-free procurement experience.</p>
+
+Our Procurement Services Includes:
+
           </p>
         </div>
 
