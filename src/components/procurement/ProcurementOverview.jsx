@@ -58,8 +58,6 @@ TITANVEX LTD provides professional equipment procurement services for industrial
 
 <p>We manage the entire procurement cycle; from identifying the right equipment and obtaining quotations to supplier coordination, logistics planning, customs support (where applicable), and final delivery—giving our clients a reliable, cost-effective, and hassle-free procurement experience.</p>
 
-Our Procurement Services Includes:
-
           </p>
         </div>
 
