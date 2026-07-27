@@ -1,0 +1,115 @@
+import {
+  Truck,
+  Warehouse,
+  Route,
+  ShieldCheck,
+} from "lucide-react";
+
+import LogisticsImage from "../../assets/logistics.jpg";
+
+export default function LogisticsIntro() {
+  return (
+   <section className="bg-white py-24">
+  <div className="container mx-auto px-6 lg:px-8">
+    
+        <div className="mx-auto max-w-7xl text-left">
+          <span  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">
+            Logistics & Supply Solutions
+          </span>
+
+          <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2">
+            Delivering Industrial Equipment<br className="hidden md:block"/> Safely, Efficiently & On schedule
+          </h2>
+
+          <p data-aos="fade-up" data-aos-delay="600" className="text-base text-gray-700">
+         We provide dependable logistics and supply solutions that streamline the movement   <br className="hidden md:block" /> of industrial equipment,
+        ensuring timely delivery, secure handling, and seamless project execution.
+          </p>
+        </div>
+
+    <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+
+          {/* Image */}
+      <div
+        data-aos="fade-left"
+        className="mt-12 relative overflow-hidden h-[500px] md:h-[500px]"
+      >
+        <img
+          src={LogisticsImage}
+          alt="Titanvex Logistics"
+          className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-700"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
+      </div>
+
+
+      {/* Content */}
+      <div data-aos="fade-right">
+        {/* Description */}
+        <p className="mt-6 text-base text-gray-700">
+          Titanvex provides dependable logistics and supply solutions that
+          support engineering, construction, manufacturing, and industrial
+          projects. We coordinate the transportation, storage, and delivery of
+          equipment and materials, ensuring every shipment reaches its
+          destination safely, efficiently, and on schedule.
+        </p>
+
+        {/* Features */}
+        <div className="grid sm:grid-cols-2 gap-6 mt-10">
+
+          <div className="flex gap-4">
+            <Truck className="text-gold mt-1" />
+            <div>
+              <h4 className=" font-semibold">Equipment Transport</h4>
+              <p className="text-slate-700 text-sm">
+                Safe transportation of industrial machinery and heavy equipment.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <Warehouse className="text-gold mt-1" />
+            <div>
+              <h4 className=" font-semibold">Warehousing</h4>
+              <p className="text-slate-700 text-sm">
+                Secure storage with organized inventory management.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <Route className="text-gold mt-1" />
+            <div>
+              <h4 className=" font-semibold">Delivery Planning</h4>
+              <p className="text-slate-700 text-sm">
+                Optimized routes that reduce delays and improve efficiency.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <ShieldCheck className="text-gold mt-1" />
+            <div>
+              <h4 className=" font-semibold">Safe Handling</h4>
+              <p className="text-slate-700 text-sm">
+                Professional handling of valuable and sensitive industrial cargo.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <button className="mt-10 inline-flex items-center gap-2 bg-gold text-primary px-6 py-3 font-semibold hover:bg-gold-dark transition">
+          Request Logistics Support
+        </button>
+
+      </div>
+
+    
+    </div>
+
+  </div>
+</section>
+
+  )}

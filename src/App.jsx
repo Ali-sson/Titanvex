@@ -4,6 +4,7 @@ import Home from './pages/Home'
 // import About from './pages/About'
 import Engineering from "./pages/services/Engineering";
 import Procurement from './pages/services/Procurement';
+import Logistics from './pages/services/Logistics';
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -28,6 +29,7 @@ function App() {
           {/* <Route path="/about" element={<About />} />  */}
          <Route path="/services/engineering" element={<Engineering />} />
           <Route path="/services/procurement" element={<Procurement />} />
+          <Route path="/services/logistics" element={<Logistics />} />
 
             {/* <Route path="/faq" element={<FAQ />} />
            <Route path="/book" element={<Book />} />

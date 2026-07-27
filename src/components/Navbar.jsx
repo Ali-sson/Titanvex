@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
-import Logo from "../assets/Logo.png";
+import Logo1 from "../assets/Logo1.png";
 
 const nav = [
   {
@@ -24,7 +24,7 @@ const nav = [
         label: "Procurement & Global Sourcing",
       },
        {
-        // to: "/services/logistics",
+        to: "/services/logistics",
         label: "Logistics & Supply Chain",
       },
       {
@@ -49,7 +49,7 @@ function Navbar() {
 
         {/* Logo */}
         <Link to="/">
-          <img src={Logo} alt="TitanVex Logo" className="h-20 w-40" />
+          <img src={Logo1} alt="TitanVex Logo" className="h-20 w-40" />
         </Link>
 
         {/* Desktop Navigation */}
