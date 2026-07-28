@@ -2,6 +2,10 @@
 import Navbar from '../../components/Navbar'
 import heroPlant from "../../assets/hero-plant.jpg";
 import LogisticsOverview from "../../components/logistics/LogisticsOverview";
+import LogisticsCapabilities from '../../components/logistics/LogisticsCapabilities';
+import LogisticsProcess from '../../components/logistics/LogisticsProcess'
+import CTA from '../../components/CTA'
+import SiteFooter from '../../components/Footer';
 
 function Logistics() {
   return (
@@ -35,7 +39,23 @@ function Logistics() {
 
           <LogisticsOverview />
 
+          <LogisticsCapabilities />
+
+          <LogisticsProcess/>
+
           
+          <CTA 
+           title = {
+            <> 
+             Partner with Titanvex for End-to-End Project Logistics
+            </>
+           }
+           description='Coordinating every stage of your industrial supply chain with precision and reliability.'
+             primaryText = "Request a Consultation"/>
+
+
+             <SiteFooter/>
+        
 
           
           </>

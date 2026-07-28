@@ -17,13 +17,18 @@ export default function LogisticsIntro() {
             Logistics & Supply Solutions
           </span>
 
-          <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2">
-            Delivering Industrial Equipment<br className="hidden md:block"/> Safely, Efficiently & On schedule
+          <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
+           Coordinating Every Stage of Your <br className="hidden md:block"/> Industrial Supply Chain 
           </h2>
 
-          <p data-aos="fade-up" data-aos-delay="600" className="text-base text-gray-700">
-         We provide dependable logistics and supply solutions that streamline the movement   <br className="hidden md:block" /> of industrial equipment,
-        ensuring timely delivery, secure handling, and seamless project execution.
+          <p data-aos="fade-up" data-aos-delay="200" className="text-base text-gray-700">
+          <p className="text-base text-gray-700">
+          Titanvex provides dependable logistics and supply solutions that
+          support engineering, construction, manufacturing, and industrial
+          projects. We coordinate the transportation, storage, and delivery of
+          equipment and materials, ensuring every shipment reaches its
+          destination safely, efficiently, and on schedule.
+        </p>
           </p>
         </div>
 
@@ -31,7 +36,7 @@ export default function LogisticsIntro() {
 
           {/* Image */}
       <div
-        data-aos="fade-left"
+        data-aos="fade-in"
         className="mt-12 relative overflow-hidden h-[500px] md:h-[500px]"
       >
         <img
@@ -47,18 +52,11 @@ export default function LogisticsIntro() {
       {/* Content */}
       <div data-aos="fade-right">
         {/* Description */}
-        <p className="mt-6 text-base text-gray-700">
-          Titanvex provides dependable logistics and supply solutions that
-          support engineering, construction, manufacturing, and industrial
-          projects. We coordinate the transportation, storage, and delivery of
-          equipment and materials, ensuring every shipment reaches its
-          destination safely, efficiently, and on schedule.
-        </p>
 
         {/* Features */}
-        <div className="grid sm:grid-cols-2 gap-6 mt-10">
+        <div className="flex flex-col gap-12 mt-10">
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 border-b border-slate-200 pb-4">
             <Truck className="text-gold mt-1" />
             <div>
               <h4 className=" font-semibold">Equipment Transport</h4>
@@ -68,7 +66,7 @@ export default function LogisticsIntro() {
             </div>
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 border-b border-slate-200 pb-4">
             <Warehouse className="text-gold mt-1" />
             <div>
               <h4 className=" font-semibold">Warehousing</h4>
@@ -78,7 +76,7 @@ export default function LogisticsIntro() {
             </div>
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 border-b border-slate-200 pb-4">
             <Route className="text-gold mt-1" />
             <div>
               <h4 className=" font-semibold">Delivery Planning</h4>
@@ -88,7 +86,7 @@ export default function LogisticsIntro() {
             </div>
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 border-b border-slate-200 pb-4">
             <ShieldCheck className="text-gold mt-1" />
             <div>
               <h4 className=" font-semibold">Safe Handling</h4>
@@ -99,10 +97,6 @@ export default function LogisticsIntro() {
           </div>
 
         </div>
-
-        <button className="mt-10 inline-flex items-center gap-2 bg-gold text-primary px-6 py-3 font-semibold hover:bg-gold-dark transition">
-          Request Logistics Support
-        </button>
 
       </div>
 
