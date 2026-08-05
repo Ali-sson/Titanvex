@@ -12,6 +12,7 @@ import {
 
 import heroPlant from "../assets/hero-plant.jpg";
 import Navbar from "../components/Navbar";
+import SiteFooter from "../components/Footer";
 
 
 // import CTAStrip from "../components/CTAStrip";
@@ -116,7 +117,7 @@ const Industries = () => {
                 className="rounded-xl border border-slate-200 bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold hover:shadow-xl"
               >
                 <div className="inline-flex rounded-lg bg-gold p-3">
-                  <Icon className="h-7 w-7 text-gold" />
+                  <Icon className="h-7 w-7 text-white" />
                 </div>
 
                 <h3 className="mt-6 text-xl font-semibold text-primary">
@@ -129,6 +130,8 @@ const Industries = () => {
           </div>
         </div>
       </section>
+
+      <SiteFooter/>
     </>
   );
 };
