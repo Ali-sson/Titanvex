@@ -79,7 +79,7 @@ export default function Engineering() {
             Engineering Services
           </span>
 
-          <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2">
+          <h2 data-aos="fade-up" className="font-poppins text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2">
             Engineering Expertise Built <br className="hidden md:block"/> Around Your Projects
           </h2>
 

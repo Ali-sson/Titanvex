@@ -17,7 +17,7 @@ export default function LogisticsIntro() {
             Logistics & Supply Solutions
           </span>
 
-          <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
+          <h2 data-aos="fade-up" className="font-poppins text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
            Coordinating Every Stage of Your <br className="hidden md:block"/> Industrial Supply Chain 
           </h2>
 

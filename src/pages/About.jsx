@@ -79,7 +79,7 @@ function About() {
           <div>
               <div>
               <h1 data-aos="fade-up" className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Company Overview</h1>
-              <h1 data-aos="fade-up" data-aos-delay="200"  className="text-3xl md:text-4xlfont-poppins font-bold mb-4 tracking-tighter uppercase">Trusted Engineering, Procurement & Industrial Solutions</h1>
+              <h1 data-aos="fade-up" data-aos-delay="200"  className="text-3xl md:text-4xl font-poppins font-bold mb-4 tracking-tighter uppercase">Trusted Engineering, Procurement & Industrial Solutions</h1>
               </div>
             <h1 data-aos="fade-up" data-aos-delay="400" className="text-gray-700" >
                 TITANVEX LTD is a Nigerian engineering, industrial equipment, procurement, logistics, and supply chain solutions company committed to supporting businesses with reliable engineering services and professional equipment solutions.

@@ -8,7 +8,7 @@ const nav = [
      to: "/", 
      label: "Home" },
   {
-    //  to: "/about",
+     to: "/about",
       label: "About Us" },
 
   {
@@ -28,14 +28,14 @@ const nav = [
         label: "Logistics & Supply Chain",
       },
       {
-        // to: "/services/spare-parts",
+        to: "/services/spare",
         label: "Spare Parts",
       },
     ],
   },
 
-  { to: "", label: "Products" },
-  { to: "", label: "Industries" },
+  { to: "/products", label: "Products" },
+  { to: "/industries", label: "Industries" },
   { to: "", label: "Portfolio" },
   { to: "", label: "Contact" },
 ];

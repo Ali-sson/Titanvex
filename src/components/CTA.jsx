@@ -24,7 +24,7 @@ export default function CTAStrip({
           <div className="relative z-10 grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
             {/* Left */}
             <div>
-              <h2 className="font-heading text-3xl font-bold uppercase leading-tight text-white md:text-4xl">
+              <h2 className="font-poppins text-3xl font-bold uppercase leading-tight text-white md:text-4xl">
                 {title}
               </h2>
 

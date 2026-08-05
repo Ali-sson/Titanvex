@@ -55,7 +55,7 @@ const WhatWeDo = () => {
           <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
                <div>
               <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">What we do</h1>
-              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight"> Integrated Industrial Solutions</h1>
+              <h1 data-aos="fade-up" data-aos-delay="400"  className="font-poppins text-3xl md:text-4xl font-bold mb-4 tracking-tight"> Integrated Industrial Solutions</h1>
               <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
                  Titanvex delivers engineering expertise, equipment supply,
             procurement, logistics <br/> coordination, installation, and maintenance
@@ -83,7 +83,7 @@ const WhatWeDo = () => {
                 key={index}
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
-                className="group rounded-xl border border-border bg-card p-4 transition-all duration-300 hover:-translate-y-2 hover:border-gold hover:shadow-2xl"
+                className="group rounded-xl border border-border bg-white p-4 transition-all duration-300 hover:-translate-y-2 hover:border-gold hover:shadow-2xl"
               >
                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg bg-gold/10 transition-colors duration-300 group-hover:bg-gold">
                   <Icon
@@ -92,11 +92,11 @@ const WhatWeDo = () => {
                   />
                 </div>
 
-                <h3 className="mb-3 text-xl font-semibold text-heading">
+                <h3 className="mb-3 text-xl font-semibold text-gray-900">
                   {service.title}
                 </h3>
 
-                <p className="mb-4 leading-7 text-paragraph">
+                <p className="mb-4 leading-7 text-gray-700">
                   {service.description}
                 </p>
               </div>

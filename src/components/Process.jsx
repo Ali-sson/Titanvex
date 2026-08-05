@@ -43,11 +43,11 @@ export default function EngineeringProcess() {
 
         {/* Heading */}
         <div className="text-left max-w-7xl mx-auto mb-20">
-          <span data-aos="fade-up" className="text-gold border-gold border-l-4 inline pl-4 font-semibold uppercase tracking-widest">
+          <span data-aos="fade-up" className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">
             How We Work
           </span>
 
-          <h2 data-aos="fade-up" data-aos-delay="200" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight uppercase my-2 text-white">
+          <h2 data-aos="fade-up" data-aos-delay="200" className="text-3xl font-poppins md:text-4xl font-bold mb-2 tracking-tight uppercase my-2 text-white">
             Our Engineering Process
           </h2>
 

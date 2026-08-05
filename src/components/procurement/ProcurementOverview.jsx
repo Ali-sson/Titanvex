@@ -46,7 +46,7 @@ export default function ProcurementOverview() {
             Procurement Excellence
           </span>
 
-          <h2 data-aos="fade-up" data-aos-delay="200" className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
+          <h2 data-aos="fade-up" data-aos-delay="200" className="font-poppins text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
             Reliable Equipment <br/> Procurement
           </h2>
 
@@ -91,7 +91,7 @@ TITANVEX LTD provides professional equipment procurement services for industrial
 
         {/* Image */}
 
-        <div data-aos="fade-in" className="mt-20 overflow-hidden rounded-3xl shadow-xl">
+        <div data-aos="fade-in" className="mt-20 overflow-hidden shadow-xl">
 
           <img
             src={procurementImage}

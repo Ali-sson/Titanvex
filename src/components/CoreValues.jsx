@@ -44,7 +44,7 @@ const CoreValues = () => {
             <img
               src={CoreValueImg}
               alt="Titanvex Engineering Team"
-              className="h-[650px]mt-20 w-full rounded-2xl object-cover shadow-2xl"
+              className="h-[650px]mt-20 w-full object-cover shadow-2xl"
             />
             </div>
           {/* Right Content */}
@@ -85,7 +85,7 @@ const CoreValues = () => {
                     </div>
 
                     <div>
-                      <h3 className="text-xl font-semibold text-heading">
+                      <h3 className="font-poppins text-xl font-semibold text-heading">
                         {value.title}
                       </h3>
 

@@ -86,7 +86,7 @@ export default function ProcurementServices() {
             What We Supply
           </span>
 
-          <h2 data-aos="fade-up" data-aos-delay="400" className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
+          <h2 data-aos="fade-up" data-aos-delay="400" className="font-poppins text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">
             Our Procurement <br/> Services
           </h2>
 

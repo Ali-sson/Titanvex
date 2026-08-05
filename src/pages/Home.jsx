@@ -61,7 +61,7 @@ const CATEGORIES = [
     image:  LogImg,
     description:
       "Reliable logistics, freight forwarding, transportation, and supply chain coordination for industrial projects across Nigeria and beyond.",
-    to: "/products",
+    to: "/services/logistics",
   },
   
 
@@ -135,18 +135,18 @@ function HomePage() {
               Delivering reliable industrial equipment, engineering expertise, procurement support, and logistics solution for 
               businesses across Nigeria.
             </p>
-            <div data-aos="fade-right" data-aos-delay="400"  className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-10 flex flex-wrap gap-4">
               <Link
                 to="/products"
                 className="inline-flex items-center gap-2 bg-gold px-9 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-gold-dark"
               >
-                View Equipment 
+                Request a Quote
               </Link>
               <Link
-                to="/services"
+                to="/services/Engineering"
                 className="inline-flex items-center border border-white/20 px-12 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-white/10"
               >
-                Our Services
+                Explore Our Services
               </Link>
             </div>
           </div>
@@ -230,45 +230,6 @@ function HomePage() {
         </div>
       </header>
 
-
-      {/* <div className="hidden lg:block">
-  <Swiper
-    modules={[Autoplay, Pagination, Navigation]}
-    autoplay={{
-      delay: 4000,
-      disableOnInteraction: false,
-    }}
-    loop={true}
-    pagination={{ clickable: true }}
-    navigation
-    className="rounded-sm shadow-2xl"
-  >
-    <SwiperSlide>
-      <img
-        src={heroExcavator}
-        alt="Excavator"
-        className="aspect-square w-full rounded-sm object-cover"
-      />
-    </SwiperSlide>
-
-    <SwiperSlide>
-      <img
-        src={wheelLoader}
-        alt="Wheel Loader"
-        className="aspect-square w-full rounded-sm object-cover"
-      />
-    </SwiperSlide>
-
-    <SwiperSlide>
-      <img
-        src={asphaltPlant}
-        alt="Asphalt Plant"
-        className="aspect-square w-full rounded-sm object-cover"
-      />
-    </SwiperSlide>
-  </Swiper>
-</div> */}
-
       {/* Stats */}
       <div className="border-b border-hairline bg-white">
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-6 py-12 text-center lg:grid-cols-4">
@@ -291,7 +252,7 @@ function HomePage() {
       {/* Capabilities strip */}
       <section className="border-b border-hairline bg-gray-100 py-16">
         <div className="mx-auto max-w-7xl px-6">
-          <p data-aos="fade-up" className="text-center text-xs font-bold uppercase tracking-widest text-brand-gray">
+          <p data-aos="fade-up" className="font-poppins text-center text-xs font-bold uppercase tracking-widest text-brand-gray">
             Core capabilities.
           </p>
           <div data-aos="fade-up" data-aos-delay="200"  className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
@@ -315,9 +276,9 @@ function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
                <div>
-              <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Industrial Solutions</h1>
-              <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Our Products & Solutions</h1>
-              <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
+              <h1 data-aos="fade-up"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Industrial Solutions</h1>
+              <h1 data-aos="fade-up" data-aos-delay="200"  className="font-poppins text-3xl md:text-4xl font-bold mb-4 tracking-tight">Our Products & Solutions</h1>
+              <p data-aos="fade-up" data-aos-delay="400"  className="text-base text-gray-700">
                 Explore our range of industrial equipment, engineering solutions, procurement services, logistics coordination <br/> and  maintenance services designed to power every stage of your project.
               </p>
               </div>
@@ -326,7 +287,7 @@ function HomePage() {
               to="/products"
               className="hidden shrink-0 border-b-2 border-gold pb-1 text-sm font-bold uppercase tracking-widest text-gold md:inline-block"
             >
-              View Full Catalog
+              View Product Page
             </Link>
           </div>
 
@@ -348,7 +309,7 @@ function HomePage() {
                   />
                 </div>
                 <div data-aos="fade-in" data-aos-delay="400"  className="p-8">
-                  <h3 className="font-heading text-xl font-bold uppercase text-brand-navy">
+                  <h3 className="font-bold text-xl font-poppins uppercase">
                     {c.title}
                   </h3>
                   <p className="mt-4 text-sm leading-relaxed text-brand-gray">
@@ -377,17 +338,7 @@ function HomePage() {
               width={1000}
               height={1250}
             />
-            {/* <div className="absolute top-8 right-0 hidden max-w-xs border border-white/10 bg-brand-navy-2 p-6 shadow-2xl xl:block xl:-right-10">
-              <div className="mb-3 flex items-center gap-3">
-                <span className="size-3 animate-pulse rounded-full bg-emerald-500" />
-                <span className="text-xs font-bold uppercase tracking-widest">
-                  Mobile Repair Teams
-                </span>
-              </div>
-              <p className="text-sm text-slate-400">
-                Nationwide deployment for breakdown repairs and preventive maintenance.
-              </p>
-            </div> */}
+          
           </div>
           <div>
             <div className="mb-6 inline-block border-l-4 border-gold pl-4">
@@ -395,7 +346,7 @@ function HomePage() {
                 Professional Services
               </span>
             </div>
-            <h2 data-aos="fade-up" data-aos-delay="200" className="font-heading text-3xl font-bold uppercase leading-tight md:text-4xl">
+            <h2 data-aos="fade-up" data-aos-delay="200" className="font-poppins text-3xl font-bold uppercase leading-tight md:text-4xl">
               End-End Engineering & Industrial   <br className="hidden md:block" /> Services
             </h2>
             <p data-aos="fade-up" data-aos-delay="400"  className="mt-6 leading-relaxed text-slate-400">
@@ -425,7 +376,7 @@ function HomePage() {
               ))}
             </ul>
             <Link
-              to="/services" data-aos="fade-right" data-aos-delay="400" 
+              to="/services/Engineering" data-aos="fade-right" data-aos-delay="400" 
               className="mt-12 inline-flex items-center gap-2 bg-white px-8 py-4 text-xs font-bold uppercase tracking-widest text-gold transition-colors hover:bg-gold-dark hover:text-white"
             >
               Explore Our Services <ArrowRight className="size-4" />
@@ -439,7 +390,7 @@ function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div>
             <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Why Choose Titanvex</h1>
-            <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Building Long-Term Partnership <br/> Through Excellence</h1>
+            <h1 data-aos="fade-up" data-aos-delay="400"  className="font-poppins text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Building Long-Term Partnership <br/> Through Excellence</h1>
             <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
               Discover why businesses, contractors, manufacturers, and government organizations trust TITANVEX for Engineering, <br className="hidden md:block"/> procurement, logistics, industrial equipment, and long term technical support
             </p>
@@ -468,7 +419,7 @@ function HomePage() {
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
             <div>
                 <h1 data-aos="fade-up" data-aos-delay="200"  className="mb-4 inline-block border-l-4 border-gold pl-4 text-gold font-semibold">Industries We Serve</h1>
-                <h1 data-aos="fade-up" data-aos-delay="400"  className="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Trusted across Nigeria's core <br className="hidden md:block"/> sectors</h1>
+                <h1 data-aos="fade-up" data-aos-delay="400"  className="font-poppins text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase my-2">Trusted across Nigeria's core <br className="hidden md:block"/> sectors</h1>
               <p data-aos="fade-up" data-aos-delay="600"  className="text-base text-gray-700">
                 We provide engineering, procurement, logistics, and industrial solutions across diverse sectors, <br/> delivering reliable support from project planning to long-term operations.
               </p>
