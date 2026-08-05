@@ -128,7 +128,7 @@ export default function Engineering() {
 
                         <Icon
                           size={28}
-                          className="text-gold"
+                          className="text-white"
                         />
 
                       </div>

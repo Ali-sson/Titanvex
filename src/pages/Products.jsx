@@ -21,7 +21,7 @@ function Products() {
           <div className="relative mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2 lg:items-center">
             <div>
               <div className="mb-2 inline-block border-l-4 border-gold pl-4">
-                <span data-aos="fade-up" data-aos-delay="200"  className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
+                <span data-aos="fade-up" data-aos-delay="200"  className="font-bold uppercase tracking-[0.25em] text-gold">
                    Products
                 </span>
                  </div>

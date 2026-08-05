@@ -127,7 +127,7 @@ export default function LogisticsCapabilities() {
               >
                 {/* Icon */}
                 <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gold transition-all duration-300 group-hover:bg-gold">
-                  <Icon className="h-8 w-8 text-gold transition-colors duration-300 group-hover:text-primary" />
+                  <Icon className="h-8 w-8 text-white transition-colors duration-300 group-hover:text-white" />
                 </div>
 
                 {/* Title */}
