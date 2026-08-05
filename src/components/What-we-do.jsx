@@ -85,10 +85,10 @@ const WhatWeDo = () => {
                 data-aos-delay={index * 100}
                 className="group rounded-xl border border-border bg-white p-4 transition-all duration-300 hover:-translate-y-2 hover:border-gold hover:shadow-2xl"
               >
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg bg-gold/10 transition-colors duration-300 group-hover:bg-gold">
+                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg bg-gold text-white transition-colors duration-300 group-hover:bg-gold">
                   <Icon
                     size={30}
-                    className="text-gold transition-colors duration-300 group-hover:text-white"
+                    className="text-white transition-colors duration-300 group-hover:text-white"
                   />
                 </div>
 

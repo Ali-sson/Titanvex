@@ -126,7 +126,7 @@ export default function LogisticsCapabilities() {
                 className="group rounded-3xl bg-white border border-slate-700 p-8 transition-all duration-500 hover:-translate-y-2 hover:border-gold"
               >
                 {/* Icon */}
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gold/10 transition-all duration-300 group-hover:bg-gold">
+                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gold transition-all duration-300 group-hover:bg-gold">
                   <Icon className="h-8 w-8 text-gold transition-colors duration-300 group-hover:text-primary" />
                 </div>
 

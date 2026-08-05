@@ -40,7 +40,7 @@ const CoreValues = () => {
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left Image */}
-          <div data-aos="fade-right" className="relative h-full">
+          <div data-aos="fade-in" className="relative h-full">
             <img
               src={CoreValueImg}
               alt="Titanvex Engineering Team"

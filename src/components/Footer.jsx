@@ -26,17 +26,17 @@ export function SiteFooter() {
             <li><Link to="/services/Logistics" className="hover:text-gold">Logistics & Supply Chain</Link></li>
             <li><Link to="/services/Engineering" className="hover:text-gold">Engineering Services</Link></li>
             <li><Link to="/services/Procurement" className="hover:text-gold">Equipment Procurement</Link></li>
-            <li><Link to="/services/Spare-Parts" className="hover:text-gold">Spare Parts</Link></li>
+            <li><Link to="/services/Spare" className="hover:text-gold">Spare Parts</Link></li>
           </ul>
         </div>
 
         <div>
           <h5 className="text-[16px] font-bold uppercase tracking-widest text-white">Quick Links</h5>
           <ul className="mt-5 space-y-3 text-sm">
-            <li><Link to="/services/About" className="hover:text-gold">About Us</Link></li>
-            <li><Link to="/services/Industries" className="hover:text-gold">Industries</Link></li>
-            <li><Link to="/services/Projects" className="hover:text-gold">Portfolio</Link></li>
-            <li><Link to="/services/Quote" className="hover:text-gold">Request a Quote</Link></li>
+            <li><Link to="/about" className="hover:text-gold">About Us</Link></li>
+            <li><Link to="/industries" className="hover:text-gold">Industries</Link></li>
+            <li><Link to="/projects" className="hover:text-gold">Portfolio</Link></li>
+            <li><Link to="/quote" className="hover:text-gold">Request a Quote</Link></li>
           </ul>
         </div>
 

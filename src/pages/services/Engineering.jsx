@@ -124,7 +124,7 @@ export default function Engineering() {
 
                     <div className="flex gap-5">
 
-                      <div className="w-14 h-14 rounded-xl bg-amber-100 flex items-center justify-center">
+                      <div className="w-14 h-14 rounded-xl bg-gold flex items-center justify-center">
 
                         <Icon
                           size={28}

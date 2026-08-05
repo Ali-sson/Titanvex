@@ -315,7 +315,7 @@ function HomePage() {
                   <p className="mt-4 text-sm leading-relaxed text-brand-gray">
                     {c.description}
                   </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-brand-navy transition-colors group-hover:text-brand-orange">
+                  <span className="mt-6 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest border-2 border-gold p-2 bg-gold transition-colors hover:bg-gold-dark">
                     Explore <ArrowRight className="size-3" />
                   </span>
                 </div>
